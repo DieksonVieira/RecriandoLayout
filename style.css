@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;/*Pesquisar os tipos de Display*/
+    background-color: #E5E5E5;
+}
+
+.palette {
+    margin-top: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+    width: 150px;
+    height: 318px;
+    position: absolute;
+    top: 0px;
+    left: -120px;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    gap: 4px;
+}
+
+.palette a {
+    width: 150px;
+    height: 70px;
+    display: flex;
+}
+
+.palette #dark {
+    background: #2F2E41;
+}
+
+.palette #green {
+    background: #00BFA6;
+}
+
+.palette #Grey {
+    background: #C2C2C2;
+}
+
+.palette #white {
+    background: white;
+}
+
+.page {
+    width: 1280px;
+    height: 720px;
+    background: #2C2B3D;
+    padding-top: 71px;
+    position: relative;
+    top: 25px;
+    left: 60px;
+}
+
+nav {
+    width: 1092px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px auto 101px;
+    align-items: center;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 64px;
+    margin: 0px;
+    padding: 0px;
+}
+
+ul a {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+main {
+    width: 1092px;
+    height: 283px;
+    margin: 0px auto 157px;
+    padding: 0px;
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+section h1 {
+    color: white;
+    width: 609px;
+    height: 40px;
+    margin: 0px 0px 67px 77px;
+    font-size: 36px;
+    line-height: 40px;
+    align-items: center;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+section h1 span {
+    color: #00BFA6;
+}
+
+section p {
+    color: #7D7987;
+    width: 604px;
+    height: 168px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 28px;
+    margin: 0px 0px 167px 80px;
+    font-weight: 400px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+section p strong {
+    color: #C2C2C2;
+}
+
+section p span {
+    color: #00BFA6;
+    font-weight: bold;
+}
+
+.footerclass {
+    display: flex;
+}
+
+footer {
+    width: 568px;
+    height: 55px;
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+#line {
+    width: 568px;
+    height: 0px;
+    border: 1px solid #00BFA6;
+    margin: 0 auto 27px;
+    padding: 0;
+}
+
+#padlock {
+    width: 51px;
+    height: 62px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
